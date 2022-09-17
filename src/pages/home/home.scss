@@ -1,0 +1,35 @@
+$homeColor: #0a4a58;
+$homeText: #fff;
+
+.d-flex {
+  display: flex;
+}
+
+.home-section {
+  justify-content: center;
+  background-image: url("../../assets/wallpaper\ 2.png");
+  background-color: $homeColor;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  background-position: bottom;
+}
+
+.texts {
+  width: 50%;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+  color: $homeText;
+   
+  h1 {
+    font-family: var(--font-sniglet);
+    margin-bottom: 1rem;
+   }
+
+   p {
+    font-family: var(--font-courier);
+   }
+   
+}

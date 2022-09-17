@@ -1,0 +1,19 @@
+$homeColor: #0a4a58;
+$homeText: #fff;
+
+.homeButton {
+  margin-top: 1.5rem;
+  height: 10vh;
+  justify-content: center;
+
+  .p-button-secondary {
+    width: 10vw;
+    height: 5vh;
+    font-size: 1rem;
+    font-family: var(--font-sniglet);
+    text-align: center;
+    border-radius: 5px;
+    color: $homeText;
+    box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.8);
+  }
+}
