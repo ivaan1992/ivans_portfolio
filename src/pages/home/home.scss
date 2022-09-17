@@ -1,13 +1,5 @@
-body {
-  background-image: url("../../assets/wallpaper\ 2.png");
-  background-color: #0a4a58;
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: 100%; 
-  background-position: center;
-  font-family: 'Sniglet', cursive;
-}
+$homeColor: #0a4a58;
+$homeText: #fff;
 
 .d-flex {
   display: flex;
@@ -15,12 +7,29 @@ body {
 
 .home-section {
   justify-content: center;
-  align-items: center;
-  height: 50vh;
-  border: 2px solid red;
+  background-image: url("../../assets/wallpaper\ 2.png");
+  background-color: $homeColor;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  background-position: bottom;
 }
 
 .texts {
+  width: 50%;
   flex-direction: column;
   text-align: center;
-}  
+  margin-top: 5%;
+  color: $homeText;
+   
+  h1 {
+    font-family: var(--font-sniglet);
+    margin-bottom: 1rem;
+   }
+
+   p {
+    font-family: var(--font-courier);
+   }
+   
+}

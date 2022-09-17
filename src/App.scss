@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Sniglet&display=swap');
+:root {
+  --font-sniglet: 'Sniglet', cursive;
+  --font-courier: 'Courier Prime', monospace;
+
+}
+@import url('./pages/home/home.scss');
+@import url('./pages//about/about.scss');
