@@ -1,0 +1,26 @@
+body {
+  background-image: url("../../assets/wallpaper\ 2.png");
+  background-color: #0a4a58;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  background-position: center;
+  font-family: 'Sniglet', cursive;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.home-section {
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border: 2px solid red;
+}
+
+.texts {
+  flex-direction: column;
+  text-align: center;
+}  
