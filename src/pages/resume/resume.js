@@ -1,8 +1,13 @@
 import React from 'react';
+import Sidebar from '../../components/sidebar/sidebar';
 
 const resume = () => (
-  <div>
-    <h1>Resume section</h1>  
+  <div className=''>
+    <div>
+    </div>
+    <div className="sidebar">
+      <Sidebar />
+    </div>
   </div>
 );
 
