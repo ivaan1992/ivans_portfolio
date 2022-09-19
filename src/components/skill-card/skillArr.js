@@ -5,7 +5,7 @@ const skillsArr = [
     },
     {
       skill: 'CSS',
-      image: './assets/html-css.png',
+      image: '/assets/css.png',
     },
     {
       skill: 'JAVASCRIPT',
@@ -13,39 +13,39 @@ const skillsArr = [
     },
     {
       skill: 'REACT',
-      image: '../assets/react-removebg.preview.png'
+      image: '/assets/react.png'
     },
     {
       skill: 'ANGULAR',
-      image: 'https://flyclipart.com/thumbs/x-1920-41-angular-icon-svg-1237225.png',
+      image: '/assets/angular.png',
     },
     {
       skill: 'RUBY',
-      image: 'https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png',
+      image: '/assets/ruby.png',
     },
     {
       skill: 'RUBY ON RAILS',
-      image: 'https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png',
+      image: '/assets/rails.png',
     },
     {
       skill: 'GIT',
-      image: 'https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png',
+      image: '/assets/git.png',
     },
     {
       skill: 'GITHUB',
-      image: 'https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png',
+      image: '/assets/github.png',
     },
     {
       skill: 'POSTGRESQL',
-      image: 'https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png',
+      image: '/assets/postgresql.png',
     },
     {
       skill: 'MONGODB',
-      image: 'https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png',
+      image: '/assets/mongodb.png',
     },
     {
       skill: 'SASS',
-      image: 'https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png',
+      image: '/assets/sass.png',
     },
 ];
 

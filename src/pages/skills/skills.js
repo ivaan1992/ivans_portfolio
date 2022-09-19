@@ -9,7 +9,7 @@ const skills = () => (
       <Sidebar />
     </div>
     <div className='skills-section'>
-      <h1>These are the skills that I have adquired as a full-stack developer</h1>
+      <h1>These are some of the skills that I have adquired as a full-stack developer</h1>
       <div class="cards">
         <SkillCard />
       </div>
