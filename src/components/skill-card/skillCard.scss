@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 5em;
+}
+
+.card {
+    margin-top: 1rem;
+    max-width: 30vw;
+    max-height: 25rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
