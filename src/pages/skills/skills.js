@@ -1,12 +1,19 @@
 import React from 'react';
 import Sidebar from '../../components/sidebar/sidebar';
+import './skills.scss'
+import SkillCard from '../../components/skill-card/skillCard';
 
 const skills = () => (
-  <div>
+  <div className='d-flex'>
     <div className="sidebar">
       <Sidebar />
     </div>
-    <h1>Skills section</h1>
+    <div className='skills-section'>
+      <h1>These are some of the skills that I have adquired as a full-stack developer</h1>
+      <div class="cards">
+        <SkillCard />
+      </div>
+    </div>
   </div>
 );
 

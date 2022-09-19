@@ -1,0 +1,22 @@
+$color1: #db6211;
+$color2: #fff;
+
+.skills-section {
+  width: 100vw;
+  height: 100vh; 
+  h1 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: var(--font-sniglet);
+    color: $color2;
+   &:hover {
+    color: $color1;
+  }
+ }
+}
+
+.cards {
+  width: 100%;
+}

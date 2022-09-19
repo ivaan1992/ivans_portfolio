@@ -1,0 +1,36 @@
+.about-me {
+  padding-left: 10%;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  h1 {
+    margin-bottom: 2rem;
+    font-family: var(--font-sniglet);
+    font-size: 4rem;
+  }
+
+  p {
+    width: 60vw;
+    text-align: justify;
+    font-family: var(--font-courier);
+    margin-bottom: 1rem;
+    line-height: 1.5625rem;
+  }
+}
+
+@media(max-width: 1366px) {
+
+
+          h1 {
+        font-size: 5px;
+        width: 50%;
+         } 
+
+         p {
+          font-size: 1rem;
+         }
+    
+
+}
