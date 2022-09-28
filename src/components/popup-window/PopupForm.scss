@@ -1,5 +1,6 @@
 $bg-color: #fff;
 $text-color: #121212;
+$placeholder: #d1a6a6;
 $red: #f94b5a;
 $label: #8c8c8c;
 $error-message: #ed4337;
@@ -84,7 +85,7 @@ $error-message: #ed4337;
             border-bottom: 1px solid $red;
             color: $text-color;
         } ::placeholder {
-            color: $text-color;
+            color: $placeholder;
         }
     }
 

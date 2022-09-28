@@ -7,7 +7,7 @@ const PopupWindow = ({show = false, onClose}) => {
   const handleClose = (e) => onClose && onClose(e)
 
   return (<>
-      <div className={`popup-window d-flex animate__animated animate__backInDown ${show ? "show" : ""}`} >
+      <div className={`popup-window d-flex animate__animated animate__backInDown ${show ? "show" : ""} ` } >
 
           <div className="popup-info">
               <button className='x'onClick={handleClose}>X</button>
@@ -20,7 +20,7 @@ const PopupWindow = ({show = false, onClose}) => {
           
       </div>
  
-      <div className={show ? "shadow" : ""} onClick={handleClose}></div>
+      <div className= {show ? "shadow" : ""} onClick={handleClose}></div>
     
   
   </>
