@@ -1,7 +1,8 @@
 .contact-form {
-    width: 70%;
+    width: 90%;
     margin-top: 5%;
     margin-left: 5%;
+    margin-bottom: 3rem;
 
     .form-par {
       font-family: var(--font-courier);
@@ -11,6 +12,17 @@
       text-align: justify;
       margin-bottom: 3.125rem;
     }
+
+    .social-media {
+      width: 100%;
+      justify-content: flex-start;
+
+      Button {
+        margin-right: 3rem;
+      }
+    }
+
+    
     /*
     .form-contact {
         width: 80%;
@@ -30,4 +42,8 @@
       max-height: 13.125rem;
       margin-bottom: 2rem;
     } */
+}
+
+.social-buttons {
+  margin-right: 4rem;
 }
