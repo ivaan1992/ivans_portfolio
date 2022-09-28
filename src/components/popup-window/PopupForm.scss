@@ -82,8 +82,9 @@ $error-message: #ed4337;
             margin-top: 1rem;
             border: none;
             background-color: transparent;
-            border-bottom: 1px solid $red;
+            border-bottom: 2px solid $text-color;
             color: $text-color;
+            font-family: var(--font-sniglet);
         } ::placeholder {
             color: $placeholder;
         }
@@ -104,9 +105,10 @@ $error-message: #ed4337;
             max-height: 15vh;
             border: none;
             background-color: transparent;
-            border-bottom: 1px solid $red;
+            border-bottom: 2px solid $text-color;
             margin-top: 1rem;
             color: $text-color;
+            font-family: var(--font-sniglet);
         }
     }
 
