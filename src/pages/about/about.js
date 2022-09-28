@@ -9,8 +9,8 @@ const about = () => (
     <div className='about-me d-flex'>
        <h1 className="section-title">About me</h1>
        <p className="about-par">Software Developer. I found my passion when I started coding, so I decided to become a Full-Stack Developer.
-         I used to be student at Microverse. I Have created several projects in different languages
-         so now I know how coding works. JavaScript lover.
+         I was student at Microverse. In Microverse I Had to create several projects in different languages
+         so now I know how coding works. And definitely I'm a JavaScript lover.
        </p>
        <br/>
        <p className="about-par">
@@ -21,12 +21,12 @@ const about = () => (
        <br />
        <p className="about-par">
          I have some hobbies. For example I love play sudoku, puzzles, watch tv shows, and movies. 
-         I love raffaello ice cream, meet new people and new places.  
+         I love raffaello ice cream, meet new people and know new places.  
        </p>
        <br />
-       <p className="about-par">I’m looking for collaborate on different kind of projects, because this is the way I learn coding and meet new people.
+       <p className="about-par">I'm looking for collaborate on different kind of projects, because this is the way I learn coding and meet new people.
          I'm new in this industry, but I really like learn new things and at the same time 
-         enjoy the whole process of making new projects. If you're interested, you can collaborate with me. 
+         enjoy the whole process of making new projects. If you're interested, you can contact me in the contact section. 
        </p>
     </div>
   </div>

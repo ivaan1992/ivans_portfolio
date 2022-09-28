@@ -1,0 +1,13 @@
+.form {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+
+  h1{
+    font-size: 3rem;
+    font-family: var(--font-sniglet);
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 2rem;
+  }
+}
