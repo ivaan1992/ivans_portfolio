@@ -15,4 +15,4 @@ const skillCard = () => (
   );
 
 
-export default skillCard
+export default skillCard;

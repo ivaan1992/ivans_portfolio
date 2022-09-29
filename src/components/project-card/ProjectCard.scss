@@ -1,0 +1,37 @@
+.card-parent {
+  border: 2px solid red;
+  width: 30vw;
+  margin-left: 5%;
+  height: 52vh;
+  display: flex;
+  justify-content: center;
+
+  .card-content {
+    border: 2px solid yellow;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    background-color: #fff;
+
+    img {
+      width: 22vw;
+      height: 22vh;
+      margin-left: 20px;
+    }
+
+    .card-text h1, p {
+      font-family: var(--font-courier);
+      color: #000;
+    }
+
+    .footer {
+      border: 2px solid blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 15%;
+    }
+  }
+}
+
