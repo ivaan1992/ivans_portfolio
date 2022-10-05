@@ -12,6 +12,10 @@ const skillsArr = [
       image: 'https://www.freepnglogos.com/uploads//javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png',
     },
     {
+      skill: 'TYPESCRIPT',
+      image: '/assets/typescript.png',
+    },
+    {
       skill: 'REACT',
       image: '/assets/react.png'
     },
@@ -38,10 +42,6 @@ const skillsArr = [
     {
       skill: 'POSTGRESQL',
       image: '/assets/postgresql.png',
-    },
-    {
-      skill: 'MONGODB',
-      image: '/assets/mongodb.png',
     },
     {
       skill: 'SASS',

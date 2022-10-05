@@ -10,7 +10,7 @@ const Form = () => {
   const notify = () => toast("Thanks for your message", 
   {
     position: "top-right",
-    autoClose: 10000,
+    autoClose: 1500,
     hideProgressBar: false,
     closeOnClick: true,
     pauseOnHover: true,
@@ -42,9 +42,8 @@ const Form = () => {
     console.log(formErrors);
     if(Object.keys(formErrors).length === 0 && isSubmit) {
       console.log(formValues);
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     }
-  }, [formErrors]);
+  });
 
   const validate = (values) => {
     const errors = {};
@@ -72,10 +71,10 @@ const Form = () => {
 
 
 
-  const sendEmail = (event) => { 
-    event.preventDefault();
-    event.target.reset();
-    EmailJS.sendForm('service_r6scku4', 'template_t1pb6ii', event.target, 'lPljcRPKiLiq2FNUr' )
+    const sendEmail = (e) => { 
+    e.preventDefault();
+    e.target.reset();
+    EmailJS.sendForm('service_r6scku4', 'template_t1pb6ii', e.target, 'lPljcRPKiLiq2FNUr' )
     .then(resp => {
       notify(resp);
     })
