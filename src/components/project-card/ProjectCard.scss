@@ -1,0 +1,63 @@
+$cardColor: #0b344b;
+$hoverColor: #c46c00;
+
+.cards-container {
+  width: 100%;
+  height: 90vh;
+  justify-content: space-around;
+  align-items: center;
+
+  .card-project {
+    border: 4px solid $cardColor;
+    border-radius: 5px;
+    width: 20rem;
+    height: 45vh;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: 20vh;
+      margin-bottom: 2rem;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    .card-title {
+      font-size: 2rem;
+      font-family: var(--font-sniglet);
+      text-align: center;
+    }
+
+    .card-info {
+      font-family: var(--font-courier);
+      font-size: 13px;
+      margin-top: 10px;
+      width: 80%;
+      margin-left: 5%;
+      height: 5vh;
+    }
+
+    .links {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+      font-family: var(--font-poppins);
+    }
+
+    
+  } .card-project:hover {
+    border: 3px solid $hoverColor;
+  }
+}
+
+@media(max-width: 1366px) {
+  .cards-container {
+    height: 86vh;
+
+    .card-project {
+      height: 48vh;
+      width: 25%;
+    }
+  }
+}

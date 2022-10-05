@@ -19,6 +19,7 @@ $homeText: #fff;
 .texts {
   width: 50%;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   margin-top: 5%;
   color: $homeText;
@@ -26,6 +27,7 @@ $homeText: #fff;
   h1 {
     font-family: var(--font-sniglet);
     margin-bottom: 1rem;
+    font-size: 2rem;
    }
 
    p {
